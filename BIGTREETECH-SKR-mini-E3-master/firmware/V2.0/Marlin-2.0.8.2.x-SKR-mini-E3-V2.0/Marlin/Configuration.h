@@ -1059,9 +1059,9 @@
  *   T |       3   | H <-- Example "3" (right+, front-)
  *     | 4         | T <-- Example "4" ( left-, front-)
  *     |    [-]    |
- *     O-- FRONT --+
+ *     O-- FRONT --+ X-54.00 Y-27.00 Z-2.64
  */
-#define NOZZLE_TO_PROBE_OFFSET { -45, -8, -2.25 }
+#define NOZZLE_TO_PROBE_OFFSET { -54.00, -27.00, -2.64 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
